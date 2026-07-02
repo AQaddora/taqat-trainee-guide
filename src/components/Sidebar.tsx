@@ -26,7 +26,7 @@ export default function Sidebar({ open, onClose }: { open: boolean; onClose: () 
           'fixed lg:static top-0 z-30 w-64 h-screen lg:h-auto bg-white border-e border-sand flex flex-col transition-all duration-200 shrink-0',
           open ? 'start-0' : '-start-64 lg:start-0',
         ].join(' ')}
-        style={{ left: open ? 0 : undefined }}
+
       >
         <div className="p-4 border-b border-sand">
           <div className="text-xs font-semibold text-amber uppercase tracking-wider">Complete Guide</div>

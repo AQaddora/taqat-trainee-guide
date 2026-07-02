@@ -41,7 +41,7 @@ export default function Hosting() {
       <ContentSection id="hosting" icon="🚀" title="الاستضافة — من الكود إلى الإنترنت">
         <div className="bg-amber/10 border-s-4 border-amber rounded-e-xl p-4 mb-6">
           <p className="font-semibold text-amber text-sm">
-            ⭐ هذا هو قلب الدليل. استضافة تقات تعني أن مشروعك حي على الإنترنت بعنوان حقيقي:{' '}
+            ⭐ هذا هو قلب الدليل. استضافة طاقات تعني أن مشروعك حي على الإنترنت بعنوان حقيقي:{' '}
             <code className="bg-white/60 px-1 rounded text-ink">https://اسمك.apps.taqat.academy</code>
           </p>
         </div>

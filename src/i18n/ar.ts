@@ -8,6 +8,6 @@ export const ar: Record<TranslationKey, string> = {
   'nav.hosting': 'الاستضافة',
   'nav.faq': 'الأسئلة الشائعة',
   'lang.toggle': 'English',
-  'site.title': 'أكاديمية تقات — الدليل الشامل',
+  'site.title': 'أكاديمية طاقات — الدليل الشامل',
   'site.subtitle': 'من الصفر إلى المشروع المنشور — كل ما تحتاج معرفته',
 }

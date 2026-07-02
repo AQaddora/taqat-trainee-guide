@@ -9,7 +9,7 @@ export default function Courses() {
     return (
       <ContentSection id="courses" icon="🎓" title="الدورات التدريبية">
         <p>
-          الدورات في تقات مبنية حول تجربة تعلم متكاملة: فيديو → اختبار → تقدم → شهادة.
+          الدورات في طاقات مبنية حول تجربة تعلم متكاملة: فيديو → اختبار → تقدم → شهادة.
         </p>
 
         <h3 className="font-semibold text-ink text-lg mt-5 mb-2">اكتشاف الدورات والتسجيل</h3>

@@ -64,7 +64,7 @@ export default function FAQ() {
         ))}
         <div className="bg-navy/5 border border-navy/20 rounded-xl p-4 mt-4">
           <p className="text-sm text-navy">
-            💬 لا تجد جوابك هنا؟ تواصل مع المجتمع في مجموعتك أو مع فريق تقات مباشرة من خلال المنصة.
+            💬 لا تجد جوابك هنا؟ تواصل مع المجتمع في مجموعتك أو مع فريق طاقات مباشرة من خلال المنصة.
           </p>
         </div>
       </ContentSection>

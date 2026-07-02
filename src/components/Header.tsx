@@ -16,7 +16,7 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
         </button>
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-lg bg-amber flex items-center justify-center">
-            <span className="text-white font-bold text-xs">ت</span>
+            <span className="text-white font-bold text-xs">ط</span>
           </div>
           <span className="font-display font-bold text-ink text-base hidden sm:block">TAQAT Academy</span>
         </div>

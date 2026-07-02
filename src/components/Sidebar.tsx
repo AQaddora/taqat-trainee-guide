@@ -23,7 +23,7 @@ export default function Sidebar({ open, onClose }: { open: boolean; onClose: () 
       )}
       <aside
         className={[
-          'fixed lg:static top-0 z-30 w-64 h-screen lg:h-auto bg-white border-e border-sand flex flex-col transition-all duration-200 shrink-0',
+          'fixed lg:sticky top-0 lg:top-14 z-30 w-64 h-screen lg:h-[calc(100vh-3.5rem)] bg-white border-e border-sand flex flex-col transition-all duration-200 shrink-0',
           open ? 'start-0' : '-start-64 lg:start-0',
         ].join(' ')}
 

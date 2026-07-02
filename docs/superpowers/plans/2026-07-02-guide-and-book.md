@@ -371,7 +371,7 @@ export const ar: Record<TranslationKey, string> = {
   'nav.hosting': 'الاستضافة',
   'nav.faq': 'الأسئلة الشائعة',
   'lang.toggle': 'English',
-  'site.title': 'أكاديمية تقات — الدليل الشامل',
+  'site.title': 'أكاديمية طاقات — الدليل الشامل',
   'site.subtitle': 'من الصفر إلى المشروع المنشور — كل ما تحتاج معرفته',
 }
 ```
@@ -412,7 +412,7 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
           <span className="block w-5 h-0.5 bg-ink mb-1" />
           <span className="block w-5 h-0.5 bg-ink" />
         </button>
-        <span className="font-display font-bold text-ink text-lg">تقات Academy</span>
+        <span className="font-display font-bold text-ink text-lg">طاقات Academy</span>
       </div>
       <button
         onClick={() => setLang(lang === 'en' ? 'ar' : 'en')}
@@ -619,8 +619,8 @@ import { useTranslation } from '../i18n/useTranslation'
 export default function Intro() {
   const { lang } = useTranslation()
   if (lang === 'ar') return (
-    <ContentSection id="intro" icon="📖" title="مرحباً في أكاديمية تقات">
-      <p>أكاديمية تقات هي منصة تعليمية إلكترونية مجانية تخدم فلسطين ومنطقة الشرق الأوسط وشمال أفريقيا. ستجد فيها دورات تدريبية، جلسات مباشرة، اختبارات بعد كل فيديو، ومنصة استضافة للمشاريع تُمكّنك من نشر مشروعك للعالم.</p>
+    <ContentSection id="intro" icon="📖" title="مرحباً في أكاديمية طاقات">
+      <p>أكاديمية طاقات هي منصة تعليمية إلكترونية مجانية تخدم فلسطين ومنطقة الشرق الأوسط وشمال أفريقيا. ستجد فيها دورات تدريبية، جلسات مباشرة، اختبارات بعد كل فيديو، ومنصة استضافة للمشاريع تُمكّنك من نشر مشروعك للعالم.</p>
       <p className="font-semibold text-ink">ما الذي ستتعلمه من هذا الدليل؟</p>
       <ul className="list-disc list-inside space-y-1 ps-2">
         <li>كيفية التسجيل وإنشاء حسابك</li>
@@ -658,7 +658,7 @@ export default function SignUp() {
   const { lang } = useTranslation()
   if (lang === 'ar') return (
     <ContentSection id="signup" icon="🔐" title="التسجيل وتسجيل الدخول">
-      <p>تسجيل الدخول في أكاديمية تقات سهل وموحد — نظام SSO واحد يعمل في جميع خدمات تقات.</p>
+      <p>تسجيل الدخول في أكاديمية طاقات سهل وموحد — نظام SSO واحد يعمل في جميع خدمات طاقات.</p>
       <h3 className="font-semibold text-ink text-lg mt-4">إنشاء حساب جديد</h3>
       <ol className="list-decimal list-inside space-y-2 ps-2">
         <li>افتح <strong>taqat.academy</strong> واضغط على "تسجيل".</li>
@@ -767,7 +767,7 @@ export default function Workroom() {
   const { lang } = useTranslation()
   if (lang === 'ar') return (
     <ContentSection id="workroom" icon="🛠" title="المجموعات وغرفة العمل">
-      <p>المجموعات هي الطريقة الرئيسية للعمل التعاوني في تقات. انضم إلى مجموعة من خلال رابط دعوة أو طلب انضمام، ثم ادخل إلى غرفة العمل.</p>
+      <p>المجموعات هي الطريقة الرئيسية للعمل التعاوني في طاقات. انضم إلى مجموعة من خلال رابط دعوة أو طلب انضمام، ثم ادخل إلى غرفة العمل.</p>
       <div className="grid grid-cols-2 gap-3 mt-4">
         <Card icon="📋" title="لوحة المهام" desc="تنظيم المهام في أعمدة (قيد الانتظار / جارٍ / مكتمل). كل مهمة تحتوي على وصف وأولوية وتاريخ تسليم." />
         <Card icon="⚡" title="السبرينت" desc="خطة عمل دورية للمجموعة. يُحدد السبرينت الهدف والمهام المطلوبة للفترة الزمنية." />

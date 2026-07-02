@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { ReactNode } from 'react'
 import { LangProvider, useTranslation } from '../i18n/useTranslation'
 import Header from './Header'
@@ -7,6 +7,12 @@ import Sidebar from './Sidebar'
 function LayoutInner({ children }: { children: ReactNode }) {
   const { lang } = useTranslation()
   const [sidebarOpen, setSidebarOpen] = useState(false)
+
+  useEffect(() => {
+    document.documentElement.lang = lang
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
+  }, [lang])
+
   return (
     <div dir={lang === 'ar' ? 'rtl' : 'ltr'} className="min-h-screen bg-paper font-sans">
       <Header onMenuToggle={() => setSidebarOpen(o => !o)} />
